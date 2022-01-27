@@ -1,4 +1,5 @@
 import React from 'react'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Home = (props) => {
   return (
@@ -31,16 +32,20 @@ const Home = (props) => {
       <div>
         <ul>
           <li>Email: jinyangb@gmail.com</li>
-          <li>
-            GitHub: https://github.com/jinyangb or
-            <a href="https://www.example.com"> Click here!</a>
-          </li>
-          <li>
-            LinkedIn: https://www.linkedin.com/in/jinyangb/ or
-            <a href="https://www.linkedin.com/in/jinyangb/"> Click here!</a>
-          </li>
+          <li>GitHub: https://github.com/jinyangb</li>
+          <li>LinkedIn: https://www.linkedin.com/in/jinyangb/</li>
         </ul>
       </div>
+      <footer>
+        <div>
+          <a href="https://github.com/jinyangb">
+            <img src="https://img.icons8.com/carbon-copy/50/000000/github-squared.png" />
+          </a>
+          <a href="https://www.linkedin.com/in/jinyangb/">
+            <img src="https://img.icons8.com/ios-glyphs/50/000000/linkedin.png" />
+          </a>
+        </div>
+      </footer>
     </div>
   )
 }
