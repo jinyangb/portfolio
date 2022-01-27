@@ -1,12 +1,17 @@
 import './App.css'
 import Home from './pages/Home'
+import Nav from './Nav'
 
 function App() {
   return (
     <div>
-      <header></header>
+      <header>
+        <Nav />
+      </header>
       <div>
-        <Home />
+        <body>
+          <Home />
+        </body>
       </div>
     </div>
   )
