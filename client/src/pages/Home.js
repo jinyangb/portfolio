@@ -8,11 +8,14 @@ const Home = (props) => {
       </div>
       <div className="about">
         <p>
-          Occaecat exercitation cillum eu culpa cupidatat exercitation Lorem id
-          incididunt ipsum aliqua. Aliqua ut cupidatat est ad est Lorem aute
-          ullamco voluptate. Non exercitation cillum ullamco eiusmod Lorem
-          laboris fugiat laborum consectetur dolore minim officia ea quis. Minim
-          ex est consequat mollit est fugiat dolore labore cupidatat proident.
+          I am a well-rounded full-stack developer with a rich background
+          experience in customer-facing roles and scaling businesses. Through
+          starting my own business, I had to learn many aspects of building a
+          company website to marketing and sales, and eventually became
+          interested in development. One of my favorite parts of being a
+          software engineer is helping a team come together and finding the most
+          effective way to work. With my strong communication skills, I believe
+          in treating all people with utmost respect and kindness.
         </p>
       </div>
       <div className="projects">
@@ -24,6 +27,19 @@ const Home = (props) => {
       </div>
       <div>
         <h2>Contact</h2>
+      </div>
+      <div>
+        <ul>
+          <li>Email: jinyangb@gmail.com</li>
+          <li>
+            GitHub: https://github.com/jinyangb or
+            <a href="https://www.example.com"> Click here!</a>
+          </li>
+          <li>
+            LinkedIn: https://www.linkedin.com/in/jinyangb/ or
+            <a href="https://www.linkedin.com/in/jinyangb/"> Click here!</a>
+          </li>
+        </ul>
       </div>
     </div>
   )
