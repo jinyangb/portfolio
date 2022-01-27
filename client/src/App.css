@@ -21,3 +21,17 @@ body {
   display: flex;
   align-items: center;
 }
+
+.profile-pic {
+  border-radius: 50%;
+  width: 200px;
+  justify-content: left;
+}
+
+.project-list {
+  display: grid;
+  justify-content: center;
+}
+
+.contact-area {
+}

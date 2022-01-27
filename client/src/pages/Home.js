@@ -5,7 +5,7 @@ const Home = (props) => {
   return (
     <div>
       <div className="greeting">
-        <h1>Hi I'm Jin and I am a Full Stack Software Developer</h1>
+        <h1>Hi I'm Jin</h1>
       </div>
       <div className="about">
         <p>
@@ -29,8 +29,13 @@ const Home = (props) => {
       <div>
         <h2>Contact</h2>
       </div>
-      <div>
-        <ul>
+      <div className="contact-area">
+        <img
+          src="https://avatars.githubusercontent.com/u/87675602?v=4"
+          alt="display image"
+          className="profile-pic"
+        />
+        <ul className="project-list">
           <li>Email: jinyangb@gmail.com</li>
           <li>GitHub: https://github.com/jinyangb</li>
           <li>LinkedIn: https://www.linkedin.com/in/jinyangb/</li>
