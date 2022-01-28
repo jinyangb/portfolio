@@ -1,7 +1,8 @@
 import React from 'react'
+import Projects from '../components/Projects'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Home = (props) => {
+const Home = () => {
   return (
     <div>
       <div className="greeting">
@@ -22,13 +23,21 @@ const Home = (props) => {
           </p>
         </div>
       </div>
-      <div className="projects">
-        <h2 className="section-heading">Projects</h2>
-        <div>
-          <div>Project One</div>
-          <div>Project Two</div>
-          <div>Project Three</div>
-          <div>Project Four</div>
+      <h2 className="section-heading">Projects</h2>
+      <div>
+        <div className="projects">
+          <div>
+            <Projects name="Project One" />
+          </div>
+          <div>
+            <Projects name="Project Two" />
+          </div>
+          <div>
+            <Projects name="Project Three" />
+          </div>
+          <div>
+            <Projects name="Project Four" />
+          </div>
         </div>
       </div>
       <div className="section-heading">

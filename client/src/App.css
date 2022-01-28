@@ -51,3 +51,8 @@ body {
   justify-content: center;
   margin-bottom: 50px;
 }
+
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
