@@ -1,5 +1,9 @@
 import React from 'react'
 import Projects from '../components/Projects'
+import cards from '../photos/cards.png'
+import simon from '../photos/simon.png'
+import filmzilla from '../photos/filmzilla.png'
+import movie from '../photos/movie.png'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Home = () => {
@@ -27,16 +31,29 @@ const Home = () => {
       <div>
         <div className="projects">
           <div>
-            <Projects name="Project One" />
+            <Projects name="Expanding Cards" />
+            <a href="https://github.com/jinyangb/Expanding-Cards">
+              <img src={cards} width="200px" className="photos" />
+            </a>
           </div>
           <div>
-            <Projects name="Project Two" />
+            <Projects name="Simon" />
+            <a href="https://github.com/jinyangb/Simon">
+              <img src={simon} width="200px" className="photos" />
+            </a>
           </div>
           <div>
-            <Projects name="Project Three" />
+            <Projects name="FilmZilla" />
+            <a href="https://github.com/jinyangb/Filmzilla">
+              <img src={filmzilla} width="200px" className="photos" />
+            </a>
           </div>
           <div>
-            <Projects name="Project Four" />
+            <Projects name="Movie API" />
+            <a href="https://github.com/jinyangb/movie-app">
+              <img src={movie} width="200px" className="photos" />
+            </a>
+            <Projects info="TMBD API, JavaScript, HTML, CSS" />
           </div>
         </div>
       </div>

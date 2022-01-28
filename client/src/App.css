@@ -15,6 +15,7 @@ body {
 .greeting {
   display: flex;
   justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .greet {
@@ -55,4 +56,17 @@ body {
 .projects {
   display: flex;
   justify-content: space-between;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.photos {
+  border-radius: 3%;
+  height: 175px;
+  display: flex;
+  justify-content: left;
+}
+
+.about {
+  margin-bottom: 3rem;
 }

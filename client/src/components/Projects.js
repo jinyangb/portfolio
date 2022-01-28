@@ -1,9 +1,15 @@
 import React from 'react'
+import cards from '../photos/cards.png'
 
 function Projects(props) {
   return (
     <div>
-      <h2>{props.name}</h2>
+      <div>
+        <h2>{props.name}</h2>
+      </div>
+      <div>
+        <p>{props.info}</p>
+      </div>
     </div>
   )
 }
