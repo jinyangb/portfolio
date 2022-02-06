@@ -12,19 +12,28 @@ const Home = () => {
       <div className="greeting">
         <h1>Hi I'm Jin</h1>
       </div>
-      <div>
-        <h2 className="section-heading">About</h2>
-        <div className="about">
-          <p>
-            I am a well-rounded full-stack developer with a rich background
-            experience in customer-facing roles and scaling businesses. Through
-            starting my own business, I had to learn many aspects of building a
-            company website to marketing and sales, and eventually became
-            interested in development. One of my favorite parts of being a
-            software engineer is helping a team come together and finding the
-            most effective way to work. With my strong communication skills, I
-            believe in treating all people with utmost respect and kindness.
-          </p>
+      <div className="about">
+        <p>
+          I am a well-rounded full-stack developer with a rich background
+          experience in customer-facing roles and scaling businesses. Through
+          starting my own business, I had to learn many aspects of building a
+          company website to marketing and sales, and eventually became
+          interested in development. One of my favorite parts of being a
+          software engineer is helping a team come together and finding the most
+          effective way to work. With my strong communication skills, I believe
+          in treating all people with utmost respect and kindness.
+        </p>
+        <div>
+          <footer className="footer-icons">
+            <div>
+              <a href="https://github.com/jinyangb">
+                <img src="https://img.icons8.com/carbon-copy/30/000000/github-squared.png" />
+              </a>
+              <a href="https://www.linkedin.com/in/jinyangb/">
+                <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" />
+              </a>
+            </div>
+          </footer>
         </div>
       </div>
       <h2 className="section-heading">Projects</h2>
