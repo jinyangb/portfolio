@@ -8,7 +8,7 @@ function Projects(props) {
         <h2>{props.name}</h2>
       </div>
       <div>
-        <p>{props.info}</p>
+        <p className="info">{props.info}</p>
       </div>
     </div>
   )
