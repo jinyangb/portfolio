@@ -1,5 +1,6 @@
 body {
   height: 100vh;
+
   background-color: #fcfcfc;
   background-image: url('https://www.transparenttextures.com/patterns/back-pattern.png');
   font-family: 'Saira Extra Condensed', sans-serif;
@@ -12,10 +13,141 @@ body {
     rgb(226, 244, 255) 100%
   ); */
 }
+
+@media screen and (max-width: 500px) {
+  .p {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+  }
+  .t {
+    margin-top: 100px;
+  }
+  .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .projectss {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about {
+    /* width: 100vw; */
+    align-items: center;
+    display: none;
+    /* margin-bottom: 100px; */
+    /* margin-left: none;
+    margin-right: none; */
+    /* height: 100vh; */
+  }
+  .paragraph {
+    color: #999999;
+    margin-top: none;
+  }
+
+  .section-heading {
+    width: 100vw;
+  }
+  .contact-area {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    /* margin-top: none; */
+    width: 50%;
+    /* flex-direction: row; */
+    /* align-items: center; */
+  }
+  .contact-area ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: red;
+    font-size: 20px;
+    /* align-items: center; */
+  }
+  .footer-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* width: 100vw; */
+    /* align-items: center; */
+  }
+  .site {
+    align-items: center;
+    /* width: 100vw; */
+    height: 100vh;
+  }
+  body {
+    /* width: 100vw; */
+    /* height: 100vh; */
+    min-width: 0%;
+    min-height: 0%;
+    margin: 0%;
+  }
+  .contact img {
+    display: none;
+  }
+  .navi {
+    font-size: 20px;
+    position: fixed;
+    height: none;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    color: #999999;
+  }
+  .greeting {
+    /* display: flex;
+    justify-content: center; */
+    font-size: 15px;
+    /* margin-top: 30px; */
+  }
+  .name {
+    display: none;
+    font-size: 30px;
+    margin-bottom: 100px;
+  }
+  .skillz {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+  .skill {
+    font-size: 20px;
+    color: #999999;
+    /* display: flex; */
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .profile-pic img {
+    display: none;
+    height: 0%;
+    width: 0%;
+    /* justify-content: center; */
+  }
+}
+
 .greeting {
   display: flex;
   justify-content: center;
   font-size: 25px;
+}
+
+.name {
+  margin-top: 50px;
+}
+
+.paragraph {
+  color: #999999;
+  margin-top: 50px;
 }
 
 .greet {
@@ -50,6 +182,12 @@ body {
   justify-content: center;
 }
 
+.footer-iconss {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
 .section-heading {
   display: flex;
   justify-content: center;
@@ -60,13 +198,13 @@ body {
   display: flex;
   justify-content: space-between;
   justify-content: space-around;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 .projectss {
   display: flex;
   justify-content: space-between;
   justify-content: space-around;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 .photos {
@@ -87,9 +225,15 @@ body {
 
 .nav {
   font-size: 20px;
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #999999;
 }
 .nav div a {
   text-decoration: none;
