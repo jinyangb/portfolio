@@ -100,11 +100,11 @@ const Home = () => {
             className="profile-pic"
           />
         </div>
-        <ul className="contact-list">
-          <li>Email: jinyangb@gmail.com</li>
-          <li>GitHub: https://github.com/jinyangb</li>
-          <li>LinkedIn: https://www.linkedin.com/in/jinyangb/</li>
-        </ul>
+        <div className="contact-list">
+          <h3>Email: jinyangb@gmail.com</h3>
+          <h3>GitHub: https://github.com/jinyangb</h3>
+          <h3>LinkedIn: https://www.linkedin.com/in/jinyangb/</h3>
+        </div>
       </div>
       <footer className="footer-icons">
         <div>
