@@ -80,48 +80,50 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="skillz">
-        <h2 id="skills" className="section-heading scroller">
-          Skills
-        </h2>
-      </div>
-      <div className="skillz">
-        <p className="skill">
-          Python, Flask, React, Vue, Sequelize, Express, PostgreSQL, MongoDB,
-          Mongoose, HTML, CSS
-        </p>
-      </div>
-      <h2 className="section-heading">Contact</h2>
-      <div id="contact" className="contact-area">
-        <div className="profile-pic">
-          <img
-            src="https://avatars.githubusercontent.com/u/87675602?v=4"
-            alt=""
-            className="profile-pic"
-          />
+      <div>
+        <div className="skillz">
+          <h2 id="skills" className="section-heading scroller">
+            Skills
+          </h2>
         </div>
-        <div className="contact-list">
-          <h3>Email: jinyangb@gmail.com</h3>
-          <h3>GitHub: https://github.com/jinyangb</h3>
-          <h3>LinkedIn: https://www.linkedin.com/in/jinyangb/</h3>
+        <div className="skillz">
+          <p className="skill">
+            Python, Flask, React, Vue, Sequelize, Express, PostgreSQL, MongoDB,
+            Mongoose, HTML, CSS
+          </p>
         </div>
-      </div>
-      <footer className="footer-icons">
-        <div>
-          <a href="https://github.com/jinyangb">
+        <h2 className="section-heading">Contact</h2>
+        <div id="contact" className="contact-area">
+          <div className="profile-pic">
             <img
-              src="https://img.icons8.com/carbon-copy/50/000000/github-squared.png"
+              src="https://avatars.githubusercontent.com/u/87675602?v=4"
               alt=""
+              className="profile-pic"
             />
-          </a>
-          <a href="https://www.linkedin.com/in/jinyangb/">
-            <img
-              src="https://img.icons8.com/ios-glyphs/50/000000/linkedin.png"
-              alt=""
-            />
-          </a>
+          </div>
+          <div className="contact-list">
+            <h3>Email: jinyangb@gmail.com</h3>
+            <h3>GitHub: https://github.com/jinyangb</h3>
+            <h3>LinkedIn: https://www.linkedin.com/in/jinyangb/</h3>
+          </div>
         </div>
-      </footer>
+        <footer className="footer-icons">
+          <div>
+            <a href="https://github.com/jinyangb">
+              <img
+                src="https://img.icons8.com/carbon-copy/50/000000/github-squared.png"
+                alt=""
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/jinyangb/">
+              <img
+                src="https://img.icons8.com/ios-glyphs/50/000000/linkedin.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </footer>
+      </div>
     </div>
   )
 }
